@@ -29,7 +29,7 @@ async function dist() {
 
     await remove(outDir)
     await mkdirp(statsDir)
-    const files = await globby([`${inDir}/**/index.scss`])
+    const files = await globby([`${inDir}/**/index.scss`, `!${inDir}/**/node_modules`])
 
     const inPattern = new RegExp(`^${inDir}/`)
     const tasks = files.map(async from => {
