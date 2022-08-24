@@ -39,7 +39,8 @@
     "pretest": "yarn dist && script/pretest",
     "test": "NODE_OPTIONS=--experimental-vm-modules yarn jest",
     "release": "changeset publish",
-    "storybook": "cd docs && yarn && yarn storybook"
+    "storybook": "cd docs && yarn && yarn storybook",
+	"dist:submodule": "cd src/primitives && yarn && yarn all"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.4.6",
