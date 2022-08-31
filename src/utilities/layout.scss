@@ -184,7 +184,7 @@ $variant in $responsive-variants {
 		}
 
 		@each $scale,
-		$size in $spacer-map-extended {
+		$size in $spacer-map-double-extended {
 			.maxw#{$variant}-#{$scale} {
 				max-width: $size  !important;
 			}

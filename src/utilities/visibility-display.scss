@@ -1,11 +1,12 @@
 // Visibility and display utilities
 
 // Responsive display utilities
-@each $breakpoint, $variant in $responsive-variants {
+@each $breakpoint,
+$variant in $responsive-variants {
 	@include breakpoint($breakpoint) {
 		@each $display in $display-values {
 			.d#{$variant}-#{$display} {
-				display: $display !important;
+				display: $display  !important;
 			}
 		}
 	}
@@ -14,25 +15,26 @@
 .v-hidden {
 	visibility: hidden !important;
 }
+
 .v-visible {
 	visibility: visible !important;
 }
 
 // Hide utilities for each breakpoint
 // Each hide utility only applies to one breakpoint range.
-@media (max-width: $width-sm - 0.02px) {
+@media (max-width: ($width-sm - 0.02px)) {
 	.hide-sm {
 		display: none !important;
 	}
 }
 
-@media (min-width: $width-sm) and (max-width: $width-md - 0.02px) {
+@media (min-width: $width-sm) and (max-width: ($width-md - 0.02px)) {
 	.hide-md {
 		display: none !important;
 	}
 }
 
-@media (min-width: $width-md) and (max-width: $width-lg - 0.02px) {
+@media (min-width: $width-md) and (max-width: ($width-lg - 0.02px)) {
 	.hide-lg {
 		display: none !important;
 	}
@@ -59,7 +61,7 @@
 	display: block !important;
 }
 
-@media (max-width: $width-md - 0.02px) {
+@media (max-width: ($width-md - 0.02px)) {
 	.show-whenNarrow {
 		display: block !important;
 	}
@@ -70,6 +72,7 @@
 }
 
 @media (min-width: $width-md) {
+
 	.show-whenRegular,
 	.show-whenRegular.hide-whenWide {
 		display: block !important;
