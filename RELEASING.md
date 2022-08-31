@@ -24,7 +24,6 @@ The release process is automated by [changesets]. After you familiarize yourself
 
 1. Test on review-lab.
 
-
 ## Publish the release (in `primer/css`)
 
 1. If the release PR got approved and you've done necessary testing, merge it.
@@ -32,7 +31,6 @@ The release process is automated by [changesets]. After you familiarize yourself
     After tests run, the docs site will be deployed and `@primer/css` will be published with your changes to the `latest` dist-tag. You can check [npm](https://www.npmjs.com/package/@primer/css?activeTab=versions) to see if actions has finished.
 
 2. Done! 🎉
-
 
 ## Update github.com (in `github/github`):
 

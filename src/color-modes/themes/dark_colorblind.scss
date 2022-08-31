@@ -2,5 +2,5 @@
 @import '../../primitives/dist/scss/colors/_dark_colorblind.scss';
 
 @include color-mode-theme(dark_colorblind) {
-  @include primer-colors-dark_colorblind;
+	@include primer-colors-dark_colorblind;
 }

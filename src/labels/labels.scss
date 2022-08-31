@@ -2,91 +2,91 @@
 
 // Provide a wrapper to ensure labels stick together
 .labels {
-  position: relative;
+	position: relative;
 }
 
 // Default label
 
 .label, // TODO: Deprecate
 .Label {
-  @include labels-base;
+	@include labels-base;
 
-  border-color: var(--color-border-default);
+	border-color: var(--color-border-default);
 
-  &:hover {
-    text-decoration: none;
-  }
+	&:hover {
+		text-decoration: none;
+	}
 }
 
 // Large
 
 .Label--large {
-  @include labels-large;
+	@include labels-large;
 }
 
 // Inline
 
 .Label--inline {
-  @include labels--inline;
+	@include labels--inline;
 }
 
 // Contrast
 
 .Label--primary {
-  color: var(--color-fg-default);
-  border-color: var(--color-neutral-emphasis);
+	color: var(--color-fg-default);
+	border-color: var(--color-neutral-emphasis);
 }
 
 .Label--secondary {
-  color: var(--color-fg-muted);
-  border-color: var(--color-border-default);
+	color: var(--color-fg-muted);
+	border-color: var(--color-border-default);
 }
 
 // Colors
 
 .Label--info, // TODO: deprecate
 .Label--accent {
-  color: var(--color-accent-fg);
-  border-color: var(--color-accent-emphasis);
+	color: var(--color-accent-fg);
+	border-color: var(--color-accent-emphasis);
 }
 
 .Label--success {
-  color: var(--color-success-fg);
-  border-color: var(--color-success-emphasis);
+	color: var(--color-success-fg);
+	border-color: var(--color-success-emphasis);
 }
 
 .Label--warning, // TODO: deprecate
 .Label--attention {
-  color: var(--color-attention-fg);
-  border-color: var(--color-attention-emphasis);
+	color: var(--color-attention-fg);
+	border-color: var(--color-attention-emphasis);
 }
 
 .Label--severe {
-  color: var(--color-severe-fg);
-  border-color: var(--color-severe-emphasis);
+	color: var(--color-severe-fg);
+	border-color: var(--color-severe-emphasis);
 }
 
 .Label--danger {
-  color: var(--color-danger-fg);
-  border-color: var(--color-danger-emphasis);
+	color: var(--color-danger-fg);
+	border-color: var(--color-danger-emphasis);
 }
 
 .Label--open {
-  color: var(--color-open-fg);
-  border-color: var(--color-open-emphasis);
+	color: var(--color-open-fg);
+	border-color: var(--color-open-emphasis);
 }
 
 .Label--closed {
-  color: var(--color-closed-fg);
-  border-color: var(--color-closed-emphasis);
+	color: var(--color-closed-fg);
+	border-color: var(--color-closed-emphasis);
 }
 
 .Label--done {
-  color: var(--color-done-fg);
-  border-color: var(--color-done-emphasis);
+	color: var(--color-done-fg);
+	border-color: var(--color-done-emphasis);
 }
 
 .Label--sponsors {
-  color: var(--color-sponsors-fg);
-  border-color: var(--color-sponsors-emphasis);
+	color: var(--color-sponsors-fg);
+	border-color: var(--color-sponsors-emphasis);
 }

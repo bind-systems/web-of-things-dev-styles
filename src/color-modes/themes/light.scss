@@ -2,5 +2,5 @@
 @import '../../primitives/dist/scss/colors/_light.scss';
 
 @include color-mode-theme(light, true) {
-  @include primer-colors-light;
+	@include primer-colors-light;
 }

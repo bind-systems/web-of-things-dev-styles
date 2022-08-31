@@ -17,8 +17,4 @@ const deprecatedSelectors = deprecations['selectors']
 const deprecatedSassVariables = deprecations['variables']
 const deprecatedSassMixins = deprecations['mixins']
 
-export {
-  deprecatedSelectors,
-  deprecatedSassVariables,
-  deprecatedSassMixins
-}
+export { deprecatedSelectors, deprecatedSassVariables, deprecatedSassMixins }
