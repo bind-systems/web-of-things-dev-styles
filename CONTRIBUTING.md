@@ -6,8 +6,8 @@ Hi there! We're thrilled that you'd like to contribute to this project. Your hel
 
 The issue tracker is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests), but please respect the following restrictions:
 
-* Please **do not** use the issue tracker for personal support requests.
-* Please **do not** derail or troll issues. Keep the discussion on topic and respect the opinions of others.
+-   Please **do not** use the issue tracker for personal support requests.
+-   Please **do not** derail or troll issues. Keep the discussion on topic and respect the opinions of others.
 
 ## Bug reports
 
@@ -42,7 +42,7 @@ Example:
 
 ## Feature requests
 
-Feature requests are welcome, but take a moment to find out whether your idea fits with the scope and aims of the project. It's up to *you* to make a strong case to convince the project's developers of the merits of this feature. Please provide as much detail and context as possible.
+Feature requests are welcome, but take a moment to find out whether your idea fits with the scope and aims of the project. It's up to _you_ to make a strong case to convince the project's developers of the merits of this feature. Please provide as much detail and context as possible.
 
 ## Pull requests
 
@@ -62,25 +62,26 @@ Anyone can open a pull request on Primer CSS. You do not need to work at GitHub 
     - See [changesets/changesets](https://github.com/changesets/changesets) for more information.
 6. Push your branch and open a pull request. Add a comment describing your proposed changes and request a review from `@primer/css-reviewers`.
 7. Wait for CI tests to finish.
-   - If the tests pass, you should see a status check telling you which alpha version of `@primer/css` you can install with npm to test your work in other projects.
-   - If the tests fail, review the logs and address any issues.
-   - If the builds fail for any other reason (as they occasionally do), they may need to be manually restarted.
+    - If the tests pass, you should see a status check telling you which alpha version of `@primer/css` you can install with npm to test your work in other projects.
+    - If the tests fail, review the logs and address any issues.
+    - If the builds fail for any other reason (as they occasionally do), they may need to be manually restarted.
 8. When CI tests pass, a new npm alpha release will be posted under the CI checks, you can use this npm version for testing in your project or with a GitHub site if you are staff.
 9. Pat yourself on the back and wait for your pull request to be reviewed.
 
 Here are a few things you can do that will increase the likelihood of your pull request being accepted:
 
-- Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
-- Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+-   Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
+-   Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
 ## Releasing a new Primer CSS version
+
 See [RELEASING.md](RELEASING.md) for our release process.
 
 ## Resources
 
-- [Contributing to Open Source on GitHub](https://guides.github.com/activities/contributing-to-open-source/)
-- [Using Pull Requests](https://help.github.com/articles/using-pull-requests/)
-- [GitHub Help](https://help.github.com)
+-   [Contributing to Open Source on GitHub](https://guides.github.com/activities/contributing-to-open-source/)
+-   [Using Pull Requests](https://help.github.com/articles/using-pull-requests/)
+-   [GitHub Help](https://help.github.com)
 
 [fork]: https://github.com/primer/css/fork
 [pr]: https://github.com/primer/css/compare

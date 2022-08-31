@@ -3,15 +3,17 @@
 //
 // No Styleguide version
 .avatar-parent-child {
-  position: relative;
+	position: relative;
 }
 
 .avatar-child {
-  position: absolute;
-  right: -15%;
-  bottom: -9%;
-  background-color: var(--color-canvas-default); // For transparent backgrounds
-  // stylelint-disable-next-line primer/borders
-  border-radius: $border-radius-1;
-  box-shadow: var(--color-avatar-child-shadow);
+	position: absolute;
+	right: -15%;
+	bottom: -9%;
+	background-color: var(
+		--color-canvas-default
+	); // For transparent backgrounds
+	// stylelint-disable-next-line primer/borders
+	border-radius: $border-radius-1;
+	box-shadow: var(--color-avatar-child-shadow);
 }
