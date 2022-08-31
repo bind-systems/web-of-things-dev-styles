@@ -165,6 +165,14 @@ $variant in $responsive-variants {
 			width: auto !important;
 		}
 
+		.maxw#{$variant}-auto {
+			max-width: auto !important;
+		}
+
+		.maxh#{$variant}-auto {
+			max-height: auto !important;
+		}
+
 		/* Set the direction to rtl */
 		.direction#{$variant}-rtl {
 			direction: rtl !important;

@@ -151,6 +151,10 @@ $variant in $responsive-variants {
 			order: inherit !important;
 		}
 
+		.flex#{$variant}-gap-auto {
+			gap: auto !important;
+		}
+
 		@each $scale,
 		$size in $spacer-map-extended {
 			.flex#{$variant}-gap-#{$scale} {
