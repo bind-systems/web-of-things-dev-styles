@@ -14,9 +14,9 @@ jobs:
         with:
           node-version: 16
       - run: npm install
-      - run: npm test
       - run: npm dist:submodule
       - run: npm dist
+      - run: npm test
 
   publish-gpr:
     needs: build
