@@ -2,6 +2,8 @@
 set -e
 
 # generate the build directory
+
+yarn dist:submodule > /dev/null
 yarn dist > /dev/null
 
 files=$(git ls-files src | sed -e 's#^src/##' | sed -e 's#/.*$##' | sort -u)

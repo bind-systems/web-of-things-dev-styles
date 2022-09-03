@@ -1,5 +1,5 @@
 {
-	"name": "@primer/css",
+	"name": "web-of-things-dev-styles",
 	"version": "20.4.3",
 	"description": "The CSS implementation of GitHub's Primer Design System",
 	"homepage": "https://primer.style/css",
@@ -15,6 +15,9 @@
 	"repository": "https://github.com/primer/css",
 	"bugs": {
 		"url": "https://github.com/primer/css/issues"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/@kkuriboh"
 	},
 	"keywords": [
 		"primer",
