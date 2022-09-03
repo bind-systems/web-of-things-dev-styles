@@ -13,10 +13,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm install
-      - run: npm dist:submodule
-      - run: npm dist
-      - run: npm test
+      - run: yarn
+      - run: yarn dist:submodule
+      - run: yarn dist
+      - run: yarn test
 
   publish-gpr:
     needs: build
@@ -31,6 +31,6 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
           scope: '@kkuriboh'
-      - run: npm publish
+      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
