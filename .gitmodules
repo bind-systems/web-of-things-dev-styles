@@ -1,3 +1,3 @@
-# [submodule "src/primitives"]
-# 	path = src/primitives
-# 	url = git@github.com:kkuriboh/primer_primitives.git
+[submodule "src/primitives"]
+	path = src/primitives
+	url = git@github.com:kkuriboh/primer_primitives.git
