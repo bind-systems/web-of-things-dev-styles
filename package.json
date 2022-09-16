@@ -43,7 +43,7 @@
 		"test": "NODE_OPTIONS=--experimental-vm-modules npm run jest",
 		"release": "changeset publish",
 		"storybook": "cd docs && npm run && npm run storybook",
-		"dist:submodule": "cd src/primitives && npm run && npm run all"
+		"dist:submodule": "cd src/primitives && npm install && npm run all"
 	},
 	"devDependencies": {
 		"@changesets/changelog-github": "0.4.6",
