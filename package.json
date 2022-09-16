@@ -1,5 +1,5 @@
 {
-	"name": "@primer/css",
+	"name": "web-of-things-dev-styles",
 	"version": "20.4.3",
 	"description": "The CSS implementation of GitHub's Primer Design System",
 	"homepage": "https://primer.style/css",
@@ -16,6 +16,9 @@
 	"bugs": {
 		"url": "https://github.com/primer/css/issues"
 	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/@kkuriboh"
+	},
 	"keywords": [
 		"primer",
 		"css",
@@ -29,18 +32,18 @@
 		"dist": "script/dist.js",
 		"dist:watch": "chokidar \"src/**/*.scss\" -c \"script/dist.js\"",
 		"stylelint": "stylelint --quiet --rd 'src/**/*.scss'",
-		"stylelint:fix": "yarn stylelint -- --fix",
+		"stylelint:fix": "npm run stylelint -- --fix",
 		"stylelint:remove-disables": "script/stylelint-remove-disables.js 'src/**/*.scss'",
 		"stylelint:add-disables": "script/stylelint-add-disables.js 'src/**/*.scss'",
 		"eslint": "eslint deprecations.js __tests__ script",
 		"prepublishOnly": "script/prepublish",
-		"start": "yarn dev",
-		"dev": "cd docs && yarn && yarn develop",
-		"pretest": "yarn dist && script/pretest",
-		"test": "NODE_OPTIONS=--experimental-vm-modules yarn jest",
+		"start": "npm run dev",
+		"dev": "cd docs && npm run && npm run develop",
+		"pretest": "npm run dist && script/pretest",
+		"test": "NODE_OPTIONS=--experimental-vm-modules npm run jest",
 		"release": "changeset publish",
-		"storybook": "cd docs && yarn && yarn storybook",
-		"dist:submodule": "cd src/primitives && yarn && yarn all"
+		"storybook": "cd docs && npm run && npm run storybook",
+		"dist:submodule": "cd src/primitives && npm run && npm run all"
 	},
 	"devDependencies": {
 		"@changesets/changelog-github": "0.4.6",

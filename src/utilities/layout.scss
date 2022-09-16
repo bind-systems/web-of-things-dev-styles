@@ -172,6 +172,13 @@ $variant in $responsive-variants {
 		.maxh#{$variant}-auto {
 			max-height: auto !important;
 		}
+		.minw#{$variant}-auto {
+			min-width: auto !important;
+		}
+
+		.minh#{$variant}-auto {
+			min-height: auto !important;
+		}
 
 		/* Set the direction to rtl */
 		.direction#{$variant}-rtl {
@@ -191,6 +198,13 @@ $variant in $responsive-variants {
 
 			.maxh#{$variant}-#{$scale} {
 				max-height: $size  !important;
+			}
+			.minw#{$variant}-#{$scale} {
+				min-width: $size  !important;
+			}
+
+			.minh#{$variant}-#{$scale} {
+				min-height: $size  !important;
 			}
 		}
 	}
